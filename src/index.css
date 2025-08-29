@@ -1,0 +1,106 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+  background: linear-gradient(135deg, #f9fafb, #e5e7eb);
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Layout */
+.min-h-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Professional card */
+.card {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Heading */
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 0;
+}
+
+p {
+  margin: 0.25rem 0 0;
+  color: #4b5563;
+}
+
+/* Textarea */
+textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #d1d5db;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 180px;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+  outline: none;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  border: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+/* Button variants */
+.btn-primary {
+  background: #2563eb;
+  color: #fff;
+}
+.btn-primary:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: #f3f4f6;
+  color: #111827;
+}
+.btn-secondary:hover {
+  background: #e5e7eb;
+  transform: translateY(-2px);
+}
+
+.btn-danger {
+  background: #ef4444;
+  color: #fff;
+}
+.btn-danger:hover {
+  background: #dc2626;
+  transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #6b7280;
+}
